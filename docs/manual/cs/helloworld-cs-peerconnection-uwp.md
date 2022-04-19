@@ -31,7 +31,7 @@ Continue editing the `MainPage.xaml.cs` file and append the following:
    using System.Collections.Generic;
    ```
 
-4. Print a simple message to the debugger to confirm that the peer connection wass initialized. In a real-world application, properly notifying the user of failures is critical, but here for the sake of this tutorial we simply rely on a any exception interrupting the application before the message is printed if an error occur.
+4. Print a simple message to the debugger to confirm that the peer connection was initialized. In a real-world application, properly notifying the user of failures is critical, but here for the sake of this tutorial we simply rely on a any exception interrupting the application before the message is printed if an error occur.
     ```cs
    Debugger.Log(0, "", "Peer connection initialized successfully.\n");
    ```
